@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:RoomBooker"
+
+    - path: "app/Main.hs"
+      component: "RoomBooker:exe:RoomBooker-exe"
+
+    - path: "app/Paths_RoomBooker.hs"
+      component: "RoomBooker:exe:RoomBooker-exe"
